@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite A" duration-ms="19281" started-at="2020-08-31T16:13:47Z" finished-at="2020-08-31T16:14:07Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="19281" started-at="2020-08-31T16:13:47Z" finished-at="2020-08-31T16:14:07Z">
+      <class name="com.automation.hybrid.suitea.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.hybrid.suitea.LoginTest@2d554825]" name="init" is-config="true" duration-ms="718" started-at="2020-08-31T21:43:47Z" finished-at="2020-08-31T21:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.automation.hybrid.suitea.LoginTest@2d554825]" name="initTest" is-config="true" duration-ms="276" started-at="2020-08-31T21:43:48Z" finished-at="2020-08-31T21:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="LoginTest(java.util.Hashtable)[pri:0, instance:com.automation.hybrid.suitea.LoginTest@2d554825]" name="LoginTest" duration-ms="16097" started-at="2020-08-31T21:43:48Z" data-provider="getData" finished-at="2020-08-31T21:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin@demo.com, ExpectedResult=LoginSuccess, Password=admin, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.automation.hybrid.suitea.LoginTest@2d554825]" name="quit" is-config="true" duration-ms="2153" started-at="2020-08-31T21:44:05Z" finished-at="2020-08-31T21:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.automation.hybrid.suitea.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Suite A -->
+  <suite name="My suite" duration-ms="0" started-at="2020-08-31T16:14:07Z" finished-at="2020-08-31T16:14:07Z">
+    <groups>
+    </groups>
+  </suite> <!-- My suite -->
+</testng-results>

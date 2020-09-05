@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="157805" started-at="2020-09-02T15:46:49Z" finished-at="2020-09-02T15:49:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="157805" started-at="2020-09-02T15:46:49Z" finished-at="2020-09-02T15:49:26Z">
+      <class name="com.automation.hybrid.suitea.EditProductTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automation.hybrid.suitea.EditProductTest@4cf777e8]" name="init" is-config="true" duration-ms="969" started-at="2020-09-02T15:46:49Z" finished-at="2020-09-02T15:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.automation.hybrid.suitea.EditProductTest@4cf777e8]" name="initTest" is-config="true" duration-ms="377" started-at="2020-09-02T15:46:50Z" finished-at="2020-09-02T15:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="editProductTest(java.util.Hashtable)[pri:0, instance:com.automation.hybrid.suitea.EditProductTest@4cf777e8]" name="editProductTest" duration-ms="155084" started-at="2020-09-02T15:46:50Z" data-provider="getData" finished-at="2020-09-02T15:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product ID=PRO1965, Col3=Dummy3, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProductTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.automation.hybrid.suitea.EditProductTest@4cf777e8]" name="quit" is-config="true" duration-ms="1327" started-at="2020-09-02T15:49:25Z" finished-at="2020-09-02T15:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.automation.hybrid.suitea.EditProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

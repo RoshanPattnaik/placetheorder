@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A" >
+
+
+  <test name="Login Test" parallel = "methods">
+    <classes>
+        <class name="com.automation.hybrid.suitea.AddProductTest" ></class>  
+    </classes>
+ </test>
+ 
+  
+
+</suite>
