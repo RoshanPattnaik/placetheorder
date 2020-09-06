@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">31,300</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.automation.hybrid.suitea.AddProductTest</td><td><a href="#m0">addProductTest</a></td><td rowspan="2">1599394852800</td><td rowspan="2">12957</td></tr><tr class="failedeven"><td><a href="#m1">addProductTest</a></td></tr></tbody></table><h2>Default test</h2><h3 id="m0">com.automation.hybrid.suitea.AddProductTest#addProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Browser=Chrome, Product Type=Feture Product, DURGAPUR=14, Product Picture=C:\Users\suresh\git\placetheorder\Images\Tomato.jpg, Deals Of The Week=In to Deals Of The Week, KOLKATA=14, Product Description=testing123, Select For Product Packaging Type=Loose Product, Runmode=Y, Product Offer=12, Product Stock=50, Category Name=Tomato,, Product Normal Price=14, Select For Hot Product Section=In In Hot Product, Select For Trending Product Section=In Trending Product, Home Category=Fresh Vegetables, Select For Special Fresh New Arrival Product Section=Select For This, Product Tag=Super Deals, ORISSA=14, BIHAR=14, BURDWAN=14, SubCategory=Tomato, Product Name=TOMATO}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.reflect.InvocationTargetException
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">62,736</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automation.hybrid.suitea.EditProductTest</td><td><a href="#m0">editProductTest</a></td><td rowspan="1">1599397390609</td><td rowspan="1">60179</td></tr></tbody></table><h2>Default test</h2><h3 id="m0">com.automation.hybrid.suitea.EditProductTest#editProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Product ID=PRO9418, DURGAPUR=20, Runmode=Y, ORISSA=20, Product Stock=20, Product Offer=20, BIHAR=20, Product Normal Price=20, Browser=Chrome, KOLKATA=20, BURDWAN=20}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at com.automation.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:45)
-	at com.automation.hybrid.suitea.AddProductTest.addProductTest(AddProductTest.java:24)
+	at com.automation.hybrid.suitea.EditProductTest.editProductTest(EditProductTest.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -32,49 +32,10 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 Caused by: java.lang.AssertionError: The following asserts failed:
-	Object Not Found 
+	Object Not Found cityPrice_xpath
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
 	at com.automtion.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:248)
 	at com.automtion.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:207)
-	at com.automtion.hybrid.keywords.GenericKeywords.dynamicType(GenericKeywords.java:150)
-	... 31 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.automation.hybrid.suitea.AddProductTest#addProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Browser=Chrome, Product Type=Feture Product, DURGAPUR=14, Product Picture=C:\Users\suresh\git\placetheorder\Images\Tomato.jpg, Deals Of The Week=In to Deals Of The Week, KOLKATA=14, Product Description=testing123, Select For Product Packaging Type=Loose Product, Runmode=Y, Product Offer=12, Product Stock=50, Category Name=Tomato,, Product Normal Price=14, Select For Hot Product Section=In In Hot Product, Select For Trending Product Section=In Trending Product, Home Category=Fresh Vegetables, Select For Special Fresh New Arrival Product Section=Select For This, Product Tag=Super Deals, ORISSA=14, BIHAR=14, BURDWAN=14, SubCategory=Tomato, Product Name=TOMATO}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.automation.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:45)
-	at com.automation.hybrid.suitea.AddProductTest.addProductTest(AddProductTest.java:24)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.lang.AssertionError: The following asserts failed:
-	Object Not Found 
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.automtion.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:248)
-	at com.automtion.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:207)
-	at com.automtion.hybrid.keywords.GenericKeywords.dynamicType(GenericKeywords.java:150)
+	at com.automtion.hybrid.keywords.GenericKeywords.type(GenericKeywords.java:121)
 	... 31 more
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
