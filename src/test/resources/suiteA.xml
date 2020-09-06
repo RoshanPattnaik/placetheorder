@@ -2,9 +2,9 @@
 <suite name="Suite A" >
 
 
-  <test name="Login Test" parallel = "methods">
+  <test name="Login Test" parallel = "classes">
     <classes>
-        <class name="com.automation.hybrid.suitea.AddProductTest" ></class>  
+        <class name="com.automation.hybrid.suitea.AddProductTest"></class>  
     </classes>
  </test>
  
