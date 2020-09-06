@@ -17,11 +17,11 @@ public class ExtentManager {
     	if (extent == null){
     		String fileName="Report.html";
     		Date d = new Date();
-    		String folderName=d.toString().replace(":", "_").replace(" ", "_");
+    		//String folderName=d.toString().replace(":", "_").replace(" ", "_");
     		
     		// directory of the report folder
-    		new File(reportPath+folderName+"//screenshots").mkdirs();
-    		reportPath=reportPath+folderName+"//";
+    		new File(reportPath+"//screenshots").mkdirs();
+    		reportPath=reportPath+"//";
     		screenshotFolderPath=reportPath+"screenshots//";
     		System.out.println(reportPath+fileName);
     		createInstance(reportPath+fileName);

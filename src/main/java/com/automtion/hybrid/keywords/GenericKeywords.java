@@ -118,9 +118,16 @@ public class GenericKeywords {
 	
 	
 	public void type(){
+		getObject(objectKey).clear();
 		test.log(Status.INFO,"Typing in "+prop.getProperty(objectKey)+" . Data - "+data.get(dataKey));
 		getObject(objectKey).sendKeys(data.get(dataKey));
 	}
+	
+	public void clear(){
+		//test.log(Status.INFO,"Typing in "+prop.getProperty(objectKey)+" . Data - "+data.get(dataKey));
+		getObject(objectKey).clear();
+	}
+	
 	
 	public void selectDropdown() {
 		test.log(Status.INFO,"Dropdown "+prop.getProperty(objectKey)+" . Data - "+data.get(dataKey));
@@ -140,6 +147,7 @@ public class GenericKeywords {
 		String xpath_start = "//input[@value='";
 		String xpath_end = "']/parent::div/following-sibling::div/input";
 		String xpath = xpath_start + dataKey + xpath_end;
+		getObject(objectKey).clear();
 		test.log(Status.INFO, dataKey+" Price-" + data.get(dataKey));
 		driver.findElement(By.xpath(xpath)).sendKeys(data.get(dataKey));
 	}

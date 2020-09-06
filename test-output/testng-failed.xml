@@ -5,7 +5,7 @@
     <classes>
       <class name="com.automation.hybrid.suitea.AddProductTest">
         <methods>
-          <include name="addProductTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="addProductTest" invocation-numbers="0 1"/>
           <include name="initTest"/>
           <include name="init"/>
           <include name="quit"/>
